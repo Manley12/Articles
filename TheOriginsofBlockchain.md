@@ -4,7 +4,7 @@ The first blockchain application was started by Satoshi Nakamoto on January 3, 2
 But what is the origin of blockchain technology?
 
 ### First Work on Blockchain
-Two Bellcore Researchers, [Stuart Haber and W. Scott Stornetta](https://link.springer.com/article/10.1007%2FBF00196791), started work on the first cryptographically secured chain (would become known as blockchain). They wanted to create a system that would create timestamps for documents that could not be tampered with. 
+Two Bellcore Researchers, [Stuart Haber and W. Scott Stornetta](https://link.springer.com/article/10.1007%2FBF00196791), started work on the first cryptographically secured chain (this concept would become known as blockchain only a few years ago). They wanted to create a system that would create timestamps for documents that could not be tampered with. This is the basis of the decentralized blockchain. 
 
 ### What is Blockchain?
 According to [IBM](https://www.ibm.com/blockchain/what-is-blockchain), blockchain technology is "a shared, immutable ledger for recording transactions, tracking assets and building trust". By storing information in a peer-to-peer network, blockchains are decentralized. This decentralization prevents many attacks that could arise from a centralized network. For example, it attempts to mitigate double-spending, mutilating previous blocks, malicious client code, among others. 
