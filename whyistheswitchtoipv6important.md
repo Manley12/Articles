@@ -7,6 +7,8 @@ IPv4 uses 32-bit addresses allowing for a total of 4,294,967,296 (2^32) addresse
 
 IPv6 on the other hand uses 128-bit addresses, allowing 3.4 x 10^38 or  340,000,000,000,000,000,000,000,000,000,000,000,000 addresses. This would mean that we will almost never run out of addresses. 
 
+According to Todd Lammle in *CCENT Cisco Certified Entry Networking Technician STUDY GUIDE* (2013), a big advantage in IPv6 is its efficiency. IPv6 has a redesigned header, now having half the fields then IPv4. Even thought IPv6 header is 40 bytes, double the 20 bytes of IPv4, the fewer fields result in a faster roued protocol (Lammle, CCENT 2013).
+
 IPv6 also implements security features to mitigate current attack methods. For example, IPv6 can use the Secure Neighbor Discovery protocol with is capable of enabling cryptographic confirmation that a web host is who it claims to be ([LinkLabs](https://www.link-labs.com/blog/why-ipv6-is-important-for-internet-of-things)). This renders the Address Resolution Protocol poisoning and some other naming-based attacks much more difficult. 
 
 Smart devices, like a smart lock, smart speaker, smart TVs, and any other "smart" internet connected device, are assigned an IP address. This takes up an available address and thus creating the need for IPv6. There is not addresses in IPv4 to support all of these devices. IPv6 also allows for more secure communications between these already insecure devices. 
