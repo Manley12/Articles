@@ -10,6 +10,8 @@ The current official version of CSS 3. This version split CSS into modules, whic
 ### Why Is CSS Important?
 According to [Learn to Code With Me](https://learntocodewith.me/getting-started/topics/css/), "CSS is important becuase it allows web designers, developer, bloggers, and so forth to make our websites unqiue and attractice. CSS gives us the opportunity to play with a page layout, adjust colors and fonts, add effects to images, etc... Ultimately, it makes our lives easier. CSS allows us to separate the presentation from the structure (HTML) into different files."
 
+[BigCommerce Essentials](https://www.bigcommerce.com/ecommerce-answers/what-css-and-why-it-important/) says that CSS "is the coding language that gives a website its look and layout. Along with HTML, CSS is fundamental to web design. Without it, website would still be plain text on white backgrounds." 
+
 Let us iTech News' website as an example. Here it is with CSS:
 ![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/capture1_orig.png)
 And here it is without any CSS:
