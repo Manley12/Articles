@@ -12,7 +12,7 @@ According to [Learn to Code With Me](https://learntocodewith.me/getting-started/
 
 [BigCommerce Essentials](https://www.bigcommerce.com/ecommerce-answers/what-css-and-why-it-important/) says that CSS "is the coding language that gives a website its look and layout. Along with HTML, CSS is fundamental to web design. Without it, website would still be plain text on white backgrounds." 
 
-Let us iTech News' website as an example. Here it is with CSS:
+Let us use iTech News' website as an example. Here it is with CSS:
 ![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/capture1_orig.png)
 And here it is without any CSS:
 ![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/capture2_orig.png)
