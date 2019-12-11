@@ -8,7 +8,7 @@ CSS was first presented as an idea at The Web Conference of 1994 in Chicago. It 
 The current official version of CSS 3. This version split CSS into modules, which have been allowed to level independently, allowing some modules to progress to level 4 ([A Word About CSS4](https://www.xanthir.com/b4Ko0)).
 
 ### How CSS Works
-CSS is interpreted by the browser and applied to the HTML that calls it. Within the stylesheet, developers assigns styles to select sections of the HTML document. What about the cascading? This is how all elements within the select section are assigned to the same style, unless another CSS section overrides it. For example, if we took the first paragraph in a website, likely denoted by the HTML 
+CSS is interpreted by the browser and applied to the HTML that calls it. Within the stylesheet, developers assigns styles to select sections of the HTML document. For example, if we took the first paragraph in a website, likely denoted by the HTML 
 ```HTML
 <p class="firstParagraph">This is the first paragraph</p>
 ```
@@ -17,6 +17,28 @@ and if we wanted to apply style using CSS, we could change the syntax to
 <p class=firstParagraph" style="font-size: 14px; color: blue;>This is the first paragraph</p>
 ```
 Thus changing the font size to 14 pixels and the color to blue instead of black.
+
+What about the cascading? This is how all elements within the select section are assigned to the same style, unless another CSS section overrides it. For example if we took the first section of the HTML tag ```<body>```, which could look like:
+```HTML
+<div class="first">
+  <p class="firstParagraph">This is the first paragraph</p>
+  <p class="secondParagraph">This is the second paragraph</p>
+</div>
+```
+and added CSS code that refers to "first" as follows:
+```HTML
+<style>
+  .first {
+    font-size: 14px;
+    color: blue;
+  }
+</style>
+<div class="first">
+  <p class="firstParagraph">This is the first paragraph</p>
+  <p class="secondParagraph">This is the second paragraph</p>
+</div>
+```
+In this case, the CSS is applied to both the first and second paragraph, making them both have a font size of 14 pixels and a color of blue.
 
 ### Why Is CSS Important?
 According to [Learn to Code With Me](https://learntocodewith.me/getting-started/topics/css/), "CSS is important becuase it allows web designers, developer, bloggers, and so forth to make our websites unqiue and attractice. CSS gives us the opportunity to play with a page layout, adjust colors and fonts, add effects to images, etc... Ultimately, it makes our lives easier. CSS allows us to separate the presentation from the structure (HTML) into different files."
