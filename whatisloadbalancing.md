@@ -4,3 +4,9 @@ Modern internet infastructure requires mutliple computers in order to serve a we
 
 ### What Does a Load Balancer Do?
 According to [NGINX](https://www.ngnix.com/resources/glossary/load-balancing/), "a load balancer acts as the "traffic cop" sitting in front of your servers and routing client request across all servers capable of fulfilling those requests in a manner that maximizes speed and capacity utilizatiojnand ensures that no one server is overworked, which could degrade performance."
+
+<ul>
+  <li>Distribute client requests or network load efficiently across multiple server</li>
+  <li>Ensures high availability and reliability by sending requests only to server that are online</li>
+  <li>Provides the flexibility to add or subtract servers as demand dictates</li>
+</ul>
