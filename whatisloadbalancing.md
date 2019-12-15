@@ -27,5 +27,8 @@ A load balancer has to determine how to route the incoming traffic to one of the
   </ul>
   <li>IP Hashing</li>
   <ul>
-    <li>This method determines where the request is forwarded to by the hash of the IP address. By using this algorithm, Load Balancers can automatically forward repeat users (from the same computer) to the same server. These types of systems can help sites like those that have shopping carts and store that information on the server.
+    <li>This method determines where the request is forwarded to by the hash of the IP address. By using this algorithm, Load Balancers can automatically forward repeat users (from the same computer) to the same server. These types of systems can help sites like those that have shopping carts and store that information on the server.</li>
+  </ul>
 </ul>
+  
+Many modern internet applications require the use due to the immense amount of traffic. By adding a load balancer to a web application you not only increase the amount of servers that support a single application, you also increase the reliably of an application due to backups and failover servers.
