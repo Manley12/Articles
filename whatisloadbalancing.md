@@ -31,4 +31,4 @@ A load balancer has to determine how to route the incoming traffic to one of the
   </ul>
 </ul>
   
-Many modern internet applications require the use due to the immense amount of traffic. By adding a load balancer to a web application you not only increase the amount of servers that support a single application, you also increase the reliably of an application due to backups and failover servers.
+Many modern internet applications require the use due to the immense amount of traffic. By adding a load balancer to a web application you not only increase the amount of servers that support a single application, you also increase the reliably of an application due to backups and fallback servers. These allows for sites like Google and Amazon to have a high online time, with almost no downtime back rely on a multitude of computers.
