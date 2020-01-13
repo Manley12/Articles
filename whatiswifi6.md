@@ -14,7 +14,9 @@ The standard also utilizes OFDMA, or Orthogonal Frequency Division Multiple Acce
   <li>Improved battery life for your devices</li>
 </ul>
 
-WiFi 6 includes advanced security protocols and requires Wi-Fi Certified WPA3. 
+WiFi 6 includes advanced security protocols and requires Wi-Fi Certified WPA3. The current security protocol is WPA2, which utilizes 128 bit keys according to [The Internet Society](ietf.org/rfc/rfc4017.txt). WPA3 mandates 256-bit encryption
 
 ### Why is WiFi 6 needed?
 According to the [Wi-Fi Alliance](www.wi-fi.org/news-events/newsroom/wi-fi-certified-6-delivers-new-wi-fi-era) WiFi 6 supports "a more diverse set of devices and applications, from those requiring peak performance in demanding enterprise environments to those requiring low power nad low latency in smart homes or industrial IoT scenarios... [It] delivers nearly four times the capacity of [802.11ac], and is an evolutionary advancement. [WiFi 6] delivers critical connectivity that supports cellular networks, and leverages high speeds, low latency, power efficiency, greater capacity, and enhanced coverage to deliver many advanced 5G services."
+
+WiFi 6 allows for more devices that a single wireless router can serve. It also comes with a mandated new security protocol known as WPA3, which includes advanced encryption and improved privacy on open wireless access points. 
