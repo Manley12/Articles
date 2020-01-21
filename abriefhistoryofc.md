@@ -1,6 +1,6 @@
 ## A Brief History of C
 
-There are many programming languages in use today. One of which is called C. There are many offshoots of the C programming language, including Objective-C, C++, and C#. None of these are the same language. 
+There are many programming languages in use today. One of which is called C. There are many offshoots of the C programming language, including Objective-C, C++, and C#. None of these are the same language. So, how did C begin?
 
 ### The Beginning
 The C programming language came out of Bell Labs in the early 1970s. According to the Bell Labs paper [<i>The Development of the C Language</i>](https://www.bell-labs.com/usr/dmr/www/chist.html) by Dennis Ritchie, "The C programming language was devised in the early 1970s as a system implementation language for the nascent Unix operating system. Derived from the typeless language BCPL, it evolved a type structure; created on a tiny machine as a tool to improve a meager programming environement". Originally, Ken Thompson, a Bell Labs employee, desired to make a programming language for the new Unix platform. Thompson modified the BCPL system language and created B. However, not many utilities were ever written in B due to its slow nature and inability to take advantage of PDP-11 features in the operating system. This had led to Ritchie improving on B, and thus creating C.
