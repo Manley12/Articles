@@ -16,5 +16,7 @@ According to [Gartner](https://www.gartner.com/en/information-technology/glossar
   <li>Efficient, deep pipelining</li>
 </ul>
 
+This means that RISC emphasises software abd favors more transistors for storing memory. This is in contrast to CISC which emphasises hardware and used many transistors for storing complex instructions. RISC also has less steps between macghine instructions and execution. RISC only has machine instructions leding to instruction execution, while CISC has machine instructions to microcode conversion to microinstruction then microinstruction execution. 
+
 ### RISC in Today's Computers
 There are many computer systems that take advantage of a RISC processor. Some notable ones are the A13 Bionic, which powers all iPhone 11 models, the A12X Bionic, which powers the iPad Pro, and 
