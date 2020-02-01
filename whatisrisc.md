@@ -22,3 +22,5 @@ There are many computer systems that take advantage of a RISC processor. Some no
 Even the most powerful supercomputer in the world, as of November of 2019, is powered off of RISC based processors, running at an astounding 200 PFLOPS/s (200,000,000,000,000,000 FLOPS/s). The Summit Supercomputer located at Oak Ridge National Laboratory uses a total of 9,216 IBM POWER9 processors which use the Power Instruction Set Architecture, which is based upon RISC.
 
 These processors are considered "ARM-based" processors which are generally less expensive than standard CISC processors. They are also considerably more (transistor) dense and more power efficient. 
+
+RISC has already made a big appeareance in modern computing, being seen in computers from the iPhone to the fastest supercomputer Summit. It offers densier processors and more power efficient ones. 
