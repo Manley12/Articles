@@ -2,7 +2,7 @@
 The Central Processing Unit Architecture operates using an instruction set architecture. RISC, or Reduced Instruction Set Computer, is a type of microprocessor architecture that uses a small, highly-optimized set of instructions. RISC offers some advantages over CISC and have even be used in the current world's fastest supercomputer.
 
 ### Origins of RISC
-RISC architecture started in the late 1970s. According to [Standford](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/whatis/index.html), the first RISC projects came from IBM, Standford, and UC-Berkeley. A lot of research went into the development, a big portion that lead to RISC was John Cocke of IBM Research who proved that about 20% of instructions in a computer did 80% of the work [TechTarget](https://search400.techtarget.com/definition/RISC).
+RISC architecture started in the late 1970s. According to [Standford](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/whatis/index.html), the first RISC projects came from IBM, Standford, and UC-Berkeley. A lot of research went into the development, a big portion that lead to RISC was John Cocke of IBM Research who proved that about 20% of instructions in a computer did 80% of the work [TechTarget](https://search400.techtarget.com/definition/RISC). 
 
 ### How is RISC Different From the Current CISC
 According to [Gartner](https://www.gartner.com/en/information-technology/glossary/risc-reduced-instruction-set-computer), RISC has five design principles:
