@@ -1,8 +1,10 @@
 ## How Does Elliptical Curve Cryptography Work?
-There are many modern encryptions algorithms. Each of which have their own strengths. Elliptical curve cryptpgraphy is a family of algorithms that are based upon elliptical curves. Most commonly these algorithms are seen in blockchains in the forms of private keys and public keys.
+There are many modern encryptions algorithms. Each of which have their own strengths. Elliptical curve cryptpgraphy (ECC) is a family of algorithms that are based upon elliptical curves. ECC is a next generation public key cryptography system that provides a significiant increase in security over preivous generations.
+
+### Background
+According to [Clouldfare](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/), the turning point in cryptography occured in 1977 with the introduction of the RSA and the Diffie-Hellman key exchange alogrithms. These were revolutionary because they were the irst cryptographic schemes where security was based upon the theory of numbers. 
 
 ### What is Elliptical Curve Cryptography?
-
 The elliptical curve is used by Bitcoin, Ethereum, and many other cryptocurrencies. Specifically they use the secp256k1 curve, which has the equation basic equation:  
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=y^2=x^3&plus;7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y^2=x^3&plus;7" title="y^2=x^3+7" /></a>
