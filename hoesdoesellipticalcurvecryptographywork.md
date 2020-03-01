@@ -7,7 +7,7 @@ The elliptical curve is used by Bitcoin, Ethereum, and many other cryptocurrenci
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=y^2=x^3&plus;7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y^2=x^3&plus;7" title="y^2=x^3+7" /></a>
 
-This equation is used to find the public key based upon a value (your private key) multiplied by a point on a curve. Which for Bitcoin that point is: 
+This equation is used to find the public key based upon a value (your private key, which is a random 256-bit integer) telling you how many times to do point addition. Which for Bitcoin that point is: 
 
 x-coordinate: 55066263022277343669578718895168534326250603453777594175500187360389116729240
 
