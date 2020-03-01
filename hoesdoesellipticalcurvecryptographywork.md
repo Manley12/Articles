@@ -3,7 +3,7 @@ There are many modern encryptions algorithms. Each of which have their own stren
 
 ### What is Elliptical Curve Crypography?
 
-The elliptical cruve is used by Bitcoin, Ethereum, and many other cryptocurrencies. Specifically they use the secp256k1 curve, which has the equation basic equation:  
+The elliptical curve is used by Bitcoin, Ethereum, and many other cryptocurrencies. Specifically they use the secp256k1 curve, which has the equation basic equation:  
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=y^2=x^3&plus;7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y^2=x^3&plus;7" title="y^2=x^3+7" /></a>
 
@@ -13,4 +13,4 @@ x-coordinate: 550662630222773436695787188951685343262506034537775941755001873603
 
 y-coordinate: 32670510020758816978083085130507043184471273380659243275938904335757337482424
 
-Then in order to make sure the resulting values can fit in 512-bit public keys, both sides of the equation are modded by the larget prime number below 2^256, being 1.15792089237316195423570985008687907853269984665640564039457584007913129639747 × 10^77, meaning the reminder is found by dividing both sides by the preivous number.
+Then in order to make sure the resulting values can fit in 512-bit public keys, both sides of the equation are modded by the largest prime number below 2^256, being 1.15792089237316195423570985008687907853269984665640564039457584007913129639747 × 10^77, meaning the reminder is found by dividing both sides by the previous number.
