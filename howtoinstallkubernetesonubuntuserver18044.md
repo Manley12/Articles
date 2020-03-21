@@ -44,7 +44,7 @@ Now on that other computer open a browser and go to the following address:
 
 https://yourInternalIP:16443/api/v1/namespaces/kube-system/services/monitoring-grafana/proxy
 
-Now that we have the dashboard up and running we can create a microbot deployment using two pods. Run:
+You will be asked for that username and password that we saved previously. Now that we have the dashboard up and running we can create a microbot deployment using two pods. Run:
 
 <code>sudo microk8s.kubectl create deployment microbot --image=dontrebootme/microbot:v1</code>
 
