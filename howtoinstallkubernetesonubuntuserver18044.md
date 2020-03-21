@@ -54,9 +54,9 @@ Now in order to expose our deployment we must create it into a service.
 
 <code>sudo microk8s.kubectl expose deployment microbot --type=NodePort --port=80 --name=microbot-service</code>
 
-Run <code>sudo microk8s.kubectl get all --all-namespaces</code> to check on the deployment and you should see the microbot-service is running at a random port, having the form 80:port. You can view the deployment by going to http://yourInteralIP:port
+Run <code>sudo microk8s.kubectl get all --all-namespaces</code> to check on the deployment and you should see the microbot-service is running at a random port, having the form 80:port. You can view the deployment by going to http://yourInteralIP:port on the other computer.
 
-
+![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/microbot_orig.png)
 
 MicroK8s will run until it is stopped. If you wish at anytime to stop MicroK8s run:
 
@@ -66,5 +66,4 @@ and to start it again run:
 
 <code>micro8s.start</code>
 
-Kubernetes is not limited to being installed only on Ubuntu Server. It can be installed on Linux, Windows, and even macOS. This guide was meant to show the basic install and setup of Kubernetes. Not only was that shown, we also setup a simply microbot deployment.
-
+Congratulations you have now setup Kubernetes on an Ubuntu Server and deployed your first application on it. Kubernetes is not limited to being installed only on Ubuntu Server. It can be installed on Linux, Windows, and even macOS. Many application will be and have been developed and deployed on Kubernetes, what will you create?
