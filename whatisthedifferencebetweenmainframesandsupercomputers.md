@@ -22,6 +22,10 @@ So, based on Oxford a supercomputer is just a powerful mainframe computer. But i
 
 ### So What Is The Difference?
 
+Mainframes are powerful computers that have handled mission-critical business workloads for decades, being in use from the 1950s. Mainframes have been replaced with server for many applications, but is still common in industries like banking, telecommunications, and retail. Many new mainframes, like the IBM z15, are only about the size of a supercomputer.
+
+A supercomputer is
+
 ### What Are Mainframes Used For?
 
 ### What Are Supercomputers Used For?
