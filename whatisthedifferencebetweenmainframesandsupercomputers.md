@@ -50,7 +50,16 @@ According to [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-su
 
 ### What Are Supercomputers Used For?
 
+Jack Dongarra gives us a good idea of what supercomputers actually do
+
+<blockquote>"Say I want to understand what happens when two galaxies collide. I can't really do that experiment. I can't take two galaxies and collide them. So I have to build a model and run it on a computer. Or in the old days, when they designed a car, they would take that car and crash it into a wall to see how well it stood up to the impact. Well, that's pretty expensive and time consuming. Today, we don't do that very often; we build a computer model with all the physics and crash it into a simulated wall to understand where the weak points are."</blockquote>
+
+Supercomputers allow for scientists and engineers to run complex simulations in short time (relatively). This allows for less time in the field doing what may be an extremely expensive experiment or test. 
+
+In fact, the world's second fastest supercomputer at about 95 Peta-FLOPS at Lawrence Livermore National Laboratory is air-gapped, meaning not connect to any external network (the internet), and running classified simulations on the United States nuclear stockpile.
+
 ### What About Mainframes?
 
+A mainframe may be the symbol of a bygone era to most, but most people have used or at least interfaced with a mainframe at one point or another. If you ever got chase back at a retailer with a debt card or used an ATM you have used a mainframe. [IBM]() says, "Today, mainframe computers play a central role in the daily operations of most of the world's largest corporations. While other forms of computing are used extensively in business in various capacities, the mainframe occupies a coveted place in today's <i>e-business</i> environment. In banking, finance, health care, insurance, utilities, government, and a multitude of other public and private enterprises, the mainframe computer continues to be the foundation of modern business."
 
-
+So, supercomputers and mainframes are both considered high-performance computers. But they have different uses from banking and retail transaction for mainframes to nuclear weapon simulations and weather simulations on supercomputers. Access to an amazing amount of computing power allows scientists, engineers, and businesses not only save time and money, but also a piece of mind that whatever they are running will happen at amazing speeds.
