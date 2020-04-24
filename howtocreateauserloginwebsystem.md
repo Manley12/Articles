@@ -61,11 +61,63 @@ You will need to open a tmux instance so that we can edit the file and still hav
 ```
 tmux
 ```
+Also run:
+```
+mkdir pytohnlogin
+```
+and then:
+```
+nano newUser.py
+```
+With this file open copy and paste the following code:
+```Python
+from flask import Flask, render_template, request
+from passlib.hash import sha256_crypt
+import mysql.connector as mariadb
 
+app = Flask(__name__)
 
+maraidb_connection = mariadb.connect(user='chooseAUserName', password='chooseAPassword', database='Login')
+
+@app.route('/')
+def index():
+  username = "newUserName"
+  password = sha256_crypt.encrypt("newPassword")
+  email = "what@ever.com"
+  
+  cur = mariadb_connection.cursor()
+  cur.execute('INSERT INTO Login (username, password, email) VALUES (%s, %s, %s)', (username, password, email))
+  mariadb_connection.commit()
+  cur.close()
+  
+  return "New user added"
+
+if __name__ == '__main__':
+  app.run(debug=True, host='0.0.0.0', port='5000')
+```
+Now close and save the file by pressing Control X, y, Enter, Enter. Now while still in tmux run:
+```
+python newUser.py
+```
+Then exit tmux for the time being by pressing Control B then D. Now run:
+```
+curl ipinfo.io/ip
+```
+and enter the resulting IP into another computer's browser by typing yourIP:5000/
+You have now added your first user. To add another run:
+```
+nano newUser.py
+```
+and change the username, password, and email fields. Then save and exit like above. Now refresh the webpage on the other computer and you have added another user. You can add as many users as you wish by repeating this process. 
+
+Once you have added all the users that you wish run:
+```
+tmux attach
+```
+Then, press Control C followed by Control D.
 
 ### Python Progamming
-Now that we have setup a few users let's write the Python code and go through what it does. Create a new file by running:
+Now that we have setup a few users let's write the Python code for the Login System and go through what it does. Create a new file by running:
 ```
 nano main.py
 ```
@@ -120,12 +172,24 @@ if __name__ == "__main__":
 ```
 
 ### HTML and CSS
+We now need to create the login webpage in HTML. First run:
+```
+mkdir templates
+```
+Then,
+```
+nano login.html
+```
+
+With that file open copy and paste the following:
+```HMTL
+
+```
 
 ### Trying Your Design
 Now that you have the code written, we can run it and try it in our browser. Go ahead and run:
 ```
 python main.py
 ```
-
 
 Congratulations you have now created a user login system for a website in Python! You can now create your own website with private webpages where you may do things like keep a private journal, store your notes or other files, and much more. Let your imagination go wild and create something amazing.
