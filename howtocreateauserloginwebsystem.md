@@ -183,8 +183,83 @@ nano login.html
 
 With that file open copy and paste the following:
 ```HMTL
-
+ <link rel="stylesheet" href="/static/login.css" type="text/css">
+ <title>Login</title>
+{% block body %}
+<form action="/lgoin" method="POST">
+<div class="login">
+  <div class="login-screen">
+    <div class="app-title">
+      <h1>Login</h1>
+    </div>
+  <div class="login-form">
+    <div class="control-group">
+        <input type="text" class="login-field" value="" placeholder="username" name="username">
+        <label class="login-field-icon fui-user" for="login-name"></label>
+    </div>
+    <div class="control-group">
+        <input type="password" class="login-field" value="" placeholder="password" name="password">
+        <label class="login-field-icon fui-lock" for="login-pass"></label>
+    </div>
+     <input type="submit" value="Log in" class="btn btn-primary btn-large btn-block">
+   </div>
+  </div>
+ </div>
+</form>
+{% endblock %}
 ```
+
+Now that we have the login page done, let's create a simple Home page. Create and open a new file in the same location:
+```
+nano index.html
+```
+And copy and paste the following code:
+```HTML
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome</title>  
+</head>
+  
+<body>
+  <div class="welcome">
+    <center>
+      <h1>
+        <font size="13" color="black">
+           Welcome
+        </font>
+      </h1>
+    </center>
+  </div>
+  
+  <center> 
+    <hr>
+  </center>
+  
+  <div class="breaker">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+  
+  <div class="footer">
+    <footer style="position: fixed; left: 2; right: 2; width: 95%; bottom: 0;">
+      <center>
+        This webpage is only accesible behind a User Web Login System written in Python
+      </center>
+    </footer>
+  </div>
+</body>
+  
+</html>
+```
+
+We can now back out of the templates folder by typing ```cd ../``` and we are ready to run!
 
 ### Trying Your Design
 Now that you have the code written, we can run it and try it in our browser. Go ahead and run:
