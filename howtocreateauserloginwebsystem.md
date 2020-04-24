@@ -171,6 +171,8 @@ if __name__ == "__main__":
   app.run(debug=False,host='0.0.0.0', port=5000)
 ```
 
+In this file, we first import the Python libraries that we will need. Then we connect to the database itself. The first function determines if a user is login in and if not show them the login page. Then, in the do_admin_login function we get the user's input from the web form, hash their password and verify it against the hashed password in our database. If this returns true, the use is now logged in and redirect to index.html, our home page. We have also included a logout function that allows for users to logout by clicking a link. Finally, we set the host to 0.0.0.0, meaning that we are hosting to outside users (not on the same computer) at port 5000.
+
 ### HTML and CSS
 We now need to create the login webpage in HTML. First run:
 ```
@@ -235,6 +237,10 @@ And copy and paste the following code:
   
   <center> 
     <hr>
+  </center>
+  
+  <center> 
+    <a href="/logout">Logout</a>
   </center>
   
   <div class="breaker">
