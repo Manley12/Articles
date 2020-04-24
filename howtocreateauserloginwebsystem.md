@@ -182,7 +182,7 @@ nano login.html
 ```
 
 With that file open copy and paste the following:
-```HMTL
+```HTML
  <link rel="stylesheet" href="/static/login.css" type="text/css">
  <title>Login</title>
 {% block body %}
