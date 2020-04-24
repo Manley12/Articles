@@ -352,4 +352,6 @@ Now that you have the code written, we can run it and try it in our browser. Go 
 python main.py
 ```
 
+Now you can access the sytem by visiting the same link as when we were creating users: yourIP:5000/
+
 Congratulations you have now created a user login system for a website in Python! You can now create your own website with private webpages where you may do things like keep a private journal, store your notes or other files, and much more. Let your imagination go wild and create something amazing.
