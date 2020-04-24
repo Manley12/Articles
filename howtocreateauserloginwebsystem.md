@@ -40,6 +40,29 @@ pip install passlib
 ```
 
 ### Seting Up Users
+Now, we are going to setup the user database and add a few users. First connect to MariaDB by typing ```sudo mysql```
+
+Next, create a new batabase named Login.
+```
+CREATE DATABASE Login;
+```
+Then enter the database so that we can add a table that will hold the users.
+```
+USE Login;
+```
+And to create the table:
+```
+CREATE TABLE Login (uid INT(11) AUTO_INCREMENT PRIMARY KEY, username VARCHAR(100), password VARCHAR(200), email VARCHAR(200));
+```
+
+Now to create users, we will actually create a small Python program to add users to the database.
+
+You will need to open a tmux instance so that we can edit the file and still have the Python program running in the background. To do that run:
+```
+tmux
+```
+
+
 
 ### Python Progamming
 Now that we have setup a few users let's write the Python code and go through what it does. Create a new file by running:
