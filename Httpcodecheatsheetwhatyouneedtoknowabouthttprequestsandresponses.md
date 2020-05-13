@@ -23,6 +23,18 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>101 Switching Protocols</td>
+    <td>The requester has asked to switch protocols and the server has agreed.</td>
+  </tr>
+</table>
+
+<h4> 2xx: Success </h4>
+<table>
+  <tr>
+    <td>200 OK</td>
+    <td>This is the standard response for successful HTTP requests. Code 200 means everything is okay.</td>
+  </tr>
+  <tr>
+    <td>201 Created</td>
   </tr>
 </table>
   
