@@ -49,7 +49,27 @@ All HTTP response codes can be separated into five categories. Theese are the ca
     <td>204 No Content</td>
     <td>The server sucessfully processed the request, but is not returning any content</td>
   </tr>
+  <tr>
+    <td>205 Reset Content</td>
+    <td>The requester should clear the form used for the transaction</td>
+  </tr>
+  <tr>
+    <td>206 Partial Content</td>
+    <td>The server is only delivering part of the resource due to a range header that was sent by the client. This range header is used by HTTP clients to enable resuming interrupted downloads or split downloads in multiple simultaneous streams.</td>
+  </tr>
 </table>
+  
+<h4>3xx Redirection</h4>
+<table>
+  <tr>
+    <td>300 Multiple Choices</td>
+    <td>A list of links, from which the requester can select one and go to it. For example, this code could be used to present multiple video formats.</td>
+  </tr>
+  <tr>
+    <td>301 Moved Permanently</td>
+    <td>The requested page has moved to a new URL</td>
+  </tr>
+</table>  
   
 ### Unknown Yet
 
