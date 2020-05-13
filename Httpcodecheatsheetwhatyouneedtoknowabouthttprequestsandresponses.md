@@ -35,6 +35,19 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>201 Created</td>
+    <td>The fulfilled request resulted in the creation of a new resource.</td>
+  </tr>
+  <tr>
+    <td>202 Accepted</td>
+    <td>The request has been accepted for processing, but has not completed processing</td>
+  </tr>
+  <tr>
+    <td>203 Non-Authoritative Information</td>
+    <td>The information contained in the entity header is from a local or third-party copy, not from the original.</td>
+  </tr>
+  <tr>
+    <td>204 No Content</td>
+    <td>The server sucessfully processed the request, but is not returning any content</td>
   </tr>
 </table>
   
