@@ -39,7 +39,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>202 Accepted</td>
-    <td>The request has been accepted for processing, but has not completed processing</td>
+    <td>The request has been accepted for processing, but has not completed processing.</td>
   </tr>
   <tr>
     <td>203 Non-Authoritative Information</td>
@@ -47,11 +47,11 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>204 No Content</td>
-    <td>The server sucessfully processed the request, but is not returning any content</td>
+    <td>The server sucessfully processed the request, but is not returning any content.</td>
   </tr>
   <tr>
     <td>205 Reset Content</td>
-    <td>The requester should clear the form used for the transaction</td>
+    <td>The requester should clear the form used for the transaction.</td>
   </tr>
   <tr>
     <td>206 Partial Content</td>
@@ -67,7 +67,35 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>301 Moved Permanently</td>
-    <td>The requested page has moved to a new URL</td>
+    <td>The requested page has been moved permanently to a new URL.</td>
+  </tr>
+  <tr>
+    <td>302 Found</td>
+    <td>The request has been moved temporarily to a new URL.</td>
+  </tr>
+  <tr>
+    <td>303 See Other</td>
+    <td>The response can be found under another URL.</td>
+  </tr>
+  <tr>
+    <td>304 Not Modified</td>
+    <td>The response code to an If-Modified-Since or If-None-Match header where the URL has not been modified since the specified date.</td>
+  </tr>
+  <tr>
+    <td>305 Use Proxy</td>
+    <td>The requested resource is only available through a proxy, whose address is provided in the response. This code is generally disobeyed for security reasons</td>
+  </tr>
+  <tr>
+    <td>306 Unused</td>
+    <td>This code is currently unused, but was used for "Switch Proxy".</td>
+  </tr>
+  <tr>
+    <td>307 Temporary Redirect</td>
+    <td>The requested page has temporarily moved to new URL.</td>
+  </tr>
+  <tr>
+    <td>308 Permanent Redirect</td>
+    <td>The request should be repeated using another URL, but the HTTP method cannot change.</td>
   </tr>
 </table>  
   
