@@ -98,6 +98,114 @@ All HTTP response codes can be separated into five categories. Theese are the ca
     <td>The request should be repeated using another URL, but the HTTP method cannot change.</td>
   </tr>
 </table>  
+
+<h4>4xx Client Errors</h4>
+<table>
+  <tr>
+    <td>400 Bad Request</td>
+    <td>There is an apparent client error and therefore the server cannot or will not process the request.
+  </tr>
+  <tr>
+    <td>401 Unauthorized</td>
+    <td>The requested page requires a username and password</td>
+  </tr>
+  <tr>
+    <td>402 Payment Required</td>
+    <td>This code is reserved for future use. Its original intention was to be used as a part of digital cash or micropayment system.</td>
+  </tr>
+  <tr>
+    <td>403 Forbidden</td>
+    <td>The request was understood by the server, but the server will not take action. This may be due to the user not having necessary permissions.</td>
+  </tr>
+  <tr>
+    <td>404 Not Found</td>
+    <td>The requested resource cannot be found. Most people know or have heard about this code. Most have even seen the error once or twice.</td>
+  </tr>
+  <tr>
+    <td>405 Method Not Allowed</td>
+    <td>The method is not supported for the resource. For example performing a GET request on a form that uses POST.</td>
+  </tr>
+  <tr>
+    <td>406 Not Acceptable</td>
+    <td>The server cannot generate a response that is accepted by the client</td>
+  </tr>
+  <tr>
+    <td>407 Proxy Authentication Required</td>
+    <td>You must first authenticate with the proxy</td>
+  </tr>
+  <tr>
+    <td>408 Request Timeout</td>
+    <td>The request took longer than the server was willingly to wait.</td>
+  </tr>
+  <tr>
+    <td>409 Conflict</td>
+    <td>This code indicates that the request could not be processed becuase of conflict in the current state of the resource.</td>
+  </tr>
+  <tr>
+    <td>410 Gone</td>
+    <td>The requested is no longer available.</td>
+  </tr>
+  <tr>
+    <td>411 Length Required</td>
+    <td>The request did not specify the length of its content. The server cannot accept the request without it.</td>
+  </tr>
+  <tr>
+    <td>412 Precondition Failed</td>
+    <td>The pre-condition that was given in the request evaluated to false by the server</td>
+  </tr>
+  <tr>
+    <td>413 Request Entity Too Large</td>
+    <td>Since the request entity is too large, the server will not accept the request.</td>
+  </tr>
+  <tr>
+    <td>414 Request-url Too Long</td>
+    <td>The requested URL was too long for the server to process.</td>
+  </tr>
+  <tr>
+    <td>415 Unsupported Media Type</td>
+    <td>The server will not accept the request since the mediatype is not supported.</td>
+  </tr>
+  <tr>
+    <td>416 Request Range Not Satisfiable</td>
+    <td>The client has asked for a portion of the file, but the server cannot provide that portion.</td>
+  </tr>
+  <tr>
+    <td>417 Expectation Failed</td>
+    <td>The server cannot meet the requirement given by the Expect request-header field.</td>
+  </tr>
+  <tr>
+    <td>418 I'm a teapot</td>
+    <td>This code was introduced as an April Fools' joke. It is currently unexpected to be implemented by actual servers</td>
+  </tr>
+  <tr>
+    <td>421 Misdirected Request</td>
+    <td>The request was directed to a server that is not able to produce a response.</td>
+  </tr>
+  <tr>
+    <td>422 Unprocessable Entity</td>
+    <td>The request was well-formed but the server was unable to follow due to semnatic errors</td>
+  </tr>
+  <tr>
+    <td>423 Locked</td>
+    <td>The resource that is being accessed is locked</td>
+  </tr>
+  <tr>
+    <td>424 Failed Dependency</td>
+    <td>The request failed becuase the request it depended upon failed.</td>
+  </tr>
+  <tr>
+    <td>425 Too Early</td>
+    <td>The server is unwilling to process a request that might be replayed later.</td>
+  </tr>
+  <tr>
+    <td>426 Upgrade Required</td>
+    <td>The client should switch to a different protocol that is given in the Upgrade header field.</td>
+  </tr>
+  <tr>
+    <td>428 Precondition Required</td>
+    <td>The origin server requires the client request to be conditional.</td>
+  </tr>
+</table>
   
 ### Unknown Yet
 
