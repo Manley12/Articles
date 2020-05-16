@@ -2,13 +2,13 @@
 If you have ever copied a link from your browser and noticed that http:// or https:// had been added before the domain, you are looking at the protocol used which defines how messages are formatted and transmitted. It also defines how web servers and browsers should respond to various commands. HTTP stands for HyperText Transfer Protocol and is used, or at least the variant HyperText Transfer Protocol Secure (HTTPS), for nearly every single website on the internet.
 
 ### HTTP Codes
-All HTTP response codes can be separated into five categories. Theese are the categories:
+All HTTP response codes can be separated into five categories. These are the categories:
 <ul>
   <li><i>1xx informational response</i> - the request has been received and continuing process</li>
   <li><i>2xx successful</i> - the request has been received, understood, and accepted</li>
   <li><i>3xx redirection</i> - further action is needed in order to complete the request</li>
   <li><i>4xx client error</i> - the request contains bad syntax or cannot be fulfilled</li>
-  <li><i>5xx server error</i> - the server failed to fulfil the apparently valid request</li>
+  <li><i>5xx server error</i> - the server failed to fulfill the apparently valid request</li>
 </ul>  
     
 <h4> 1xx: Information</h4>
@@ -55,7 +55,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>204 No Content</td>
-    <td>The server sucessfully processed the request, but is not returning any content.</td>
+    <td>The server successfully processed the request, but is not returning any content.</td>
   </tr>
   <tr>
     <td>205 Reset Content</td>
@@ -67,7 +67,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>207 Multi Status</td>
-    <td>This code indicates that the folloing message body contains an XML message and can contain multiple separate response codes.</td>
+    <td>This code indicates that the following message body contains an XML message and can contain multiple separate response codes.</td>
   </tr>
   <tr>
     <td>208 Already Reported</td>
@@ -159,7 +159,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>409 Conflict</td>
-    <td>This code indicates that the request could not be processed becuase of conflict in the current state of the resource.</td>
+    <td>This code indicates that the request could not be processed because of conflict in the current state of the resource.</td>
   </tr>
   <tr>
     <td>410 Gone</td>
@@ -203,7 +203,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>422 Unprocessable Entity</td>
-    <td>The request was well-formed but the server was unable to follow due to semnatic errors</td>
+    <td>The request was well-formed but the server was unable to follow due to semantic errors</td>
   </tr>
   <tr>
     <td>423 Locked</td>
@@ -211,7 +211,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>424 Failed Dependency</td>
-    <td>The request failed becuase the request it depended upon failed.</td>
+    <td>The request failed because the request it depended upon failed.</td>
   </tr>
   <tr>
     <td>425 Too Early</td>
@@ -231,7 +231,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>431 Request Header Fields Too Large</td>
-    <td>The server refuses to process the client requests becuase the request's HTTP headers are too long.</td>
+    <td>The server refuses to process the client requests because the request's HTTP headers are too long.</td>
   </tr>
   <tr>
     <td>451 Unavailable for Legal Reasons</td>
@@ -243,11 +243,11 @@ All HTTP response codes can be separated into five categories. Theese are the ca
 <table>
   <tr>
     <td>500 Internal Server Error</td>
-    <td>This code indicates that the server experienced an unexpected condition which prevented it from fulfulling the request.</td>
+    <td>This code indicates that the server experienced an unexpected condition which prevented it from fulfilling the request.</td>
   </tr>
   <tr>
     <td>501 Not Implemented</td>
-    <td>The server did not recognize the request method or is unable to fulfil the request.</td>
+    <td>The server did not recognize the request method or is unable to fulfill the request.</td>
   </tr>
   <tr>
     <td>502 Bad Gateway</td>
@@ -279,7 +279,7 @@ All HTTP response codes can be separated into five categories. Theese are the ca
   </tr>
   <tr>
     <td>510 Not Extended</td>
-    <td>The request needed further extensions for the server to fulfil it.</td>
+    <td>The request needed further extensions for the server to fulfill it.</td>
   </tr>
   <tr>
     <td>511 Network Authentication Required</td>
@@ -289,4 +289,4 @@ All HTTP response codes can be separated into five categories. Theese are the ca
 
 There are many HTTP codes that are unassigned. Some of them may be introduced in later revisions. Even with the limited amount of current assigned codes, some people may never see many of these codes. Many ends users, however, may be familiar with 404 and 500 as they have an auto generated error page.
 
-HTTP codes are important to understand, especially if you are developing a web application and are trying to debug based upon the console responses. Knowing these codes came in hadny while I was working on my website and forgot to allow methods through the function. This returned a 501 code, allowing me to easily find my mistake.
+HTTP codes are important to understand, especially if you are developing a web application and are trying to debug based upon the console responses. Knowing these codes came in handy while I was working on my website and forgot to allow methods through the function. This returned a 501 code, allowing me to easily find my mistake.
