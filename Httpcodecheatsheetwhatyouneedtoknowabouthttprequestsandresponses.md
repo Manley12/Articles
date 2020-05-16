@@ -205,6 +205,66 @@ All HTTP response codes can be separated into five categories. Theese are the ca
     <td>428 Precondition Required</td>
     <td>The origin server requires the client request to be conditional.</td>
   </tr>
+  <tr>
+    <td>429 Too Many Requests</td>
+    <td>The client has sent too many request in a given amount of time.</td>
+  </tr>
+  <tr>
+    <td>431 Request Header Fields Too Large</td>
+    <td>The server refuses to process the client requests becuase the request's HTTP headers are too long.</td>
+  </tr>
+  <tr>
+    <td>451 Unavailable for Legal Reasons</td>
+    <td>This indicates that the requested resource is not available due to legal reasons.</td>
+  </tr>
+</table>
+  
+<h4>5xx Server Errors</h4>
+<table>
+  <tr>
+    <td>500 Internal Server Error</td>
+    <td>This code indicates that the server experienced an unexpected condition which prevented it from fulfulling the request.</td>
+  </tr>
+  <tr>
+    <td>501 Not Implemented</td>
+    <td>The server did not recognize the request method or is unable to fulfil the request.</td>
+  </tr>
+  <tr>
+    <td>502 Bad Gateway</td>
+    <td>The server, while acting as either a gateway or proxy, has received an invalid response from the upstream server.</td>
+  </tr>
+  <tr>
+    <td>503 Service Unavailable</td>
+    <td>The server cannot handle the request.</td>
+  </tr>
+  <tr>
+    <td>504 Gateway Timeout</td>
+    <td>The server, while acting as either a gateway or proxy, did not receive a timely response from the upstream server.</td>
+  </tr>
+  <tr>
+    <td>505 HTTP Version Not Supported</td>
+    <td>The client HTTP protocol version used in the request is not supported by the server.</td>
+  </tr>
+  <tr>
+    <td>506 Variant Also Negotiates</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>507 Insufficient Storage</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>508 Loop Detected</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>510 Not Extended</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>511 Network Authentication Required</td>
+    <td></td>
+  </tr>
 </table>
   
 ### Unknown Yet
