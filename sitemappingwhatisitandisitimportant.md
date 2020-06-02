@@ -7,4 +7,4 @@ According to [Google Search Console](https://support.google.com/webmasters/answe
 ### Is It Important
 Sitemaps are commonly used by search engines to crawl a website more intelligentely and various other information. This information can be extremely important in determining the correct search results. 
 
-Not only can sitemaps be useful for search engines to index your website, if can be very useful for development. 
+Not only can sitemaps be useful for search engines to index your website, if can be very useful for development. For example, when developing a site with an user login system, it may be important to create your own sitemap to view how pages are connected and which pages can only be accessed by logging in.
