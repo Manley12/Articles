@@ -11,6 +11,9 @@ Sitemaps are commonly used by search engines to crawl a website more intelligent
 
 Not only can sitemaps be useful for search engines to index a website, it can be very useful for development. For example, when developing a site with a user login system, it may be important to create a sitemap to view how pages are connected and which pages can only be accessed by logging in. Viewing this information may help in development to make sure that links do not accidentally take a visitor to a "protected page" that was not for their viewing.
 
+### How To Generate and Upload to Google Search Console
+Thankfully, it is easy to generate a sitemap for your ebsite using free online services. 
+
 According to [NeilPatel](https://neilpatel.com/blog/build-a-sitemap/), "Without a sitemap, you may spend a lot of time creating unnecessary pages, or designing sites that are more complicated than they need to be." Instead of possibly wasting time creating duplicate resources for a website it is better to create a sitemap and use it as a roadmap. 
 
 Planning, designing, and creating a program to achieve a specific goal takes time. Some of the time may be accidentally spent duplicating systems that already exist within the program. Sitemapping can help prevent this duplication when creating a web application. But, always remember to think ahead when planning any type of program, especially a website. 
