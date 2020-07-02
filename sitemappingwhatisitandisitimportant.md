@@ -16,7 +16,17 @@ Not only can sitemaps be useful for search engines to index a website, it can be
 ### How To Generate and Upload to Google Search Console
 Thankfully, it is easy to generate a sitemap for your website using free online services. For this example we will use [Online XML Sitemap Generator](https://www.web-site-map.com/xml_sitemap.php) to generate a sitemap for iTech News and provide Google Search Console access in order to index our site.
 
-![]()
+![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/5d9bf435-c752-47c0-b904-053022c179a7_orig.png)
+
+Simply go to the website and enter your website's address, then click "Create free XML Sitemap". It may take some time to generate a sitemap for your site, especially if you have hundreds of webpages. Once you have this sitemap downloaded (known as sitemap.xml). You will need to upload this file to your website.
+
+Once this is upload head over to your Google Search Console and click on sitemap on the sidebar. Once there enter sitemap.xml into the text box.
+
+![](https://newsitech.weebly.com/uploads/2/0/5/4/20542424/screen-shot-2020-07-02-at-10-47-34-am_orig.png)
+
+After that click submit and Google now knows where your sitemap is and will shortly start indexing it. 
+
+Simply go to the website and enter your website's address, then click "Create free XML Sitemap". It may take some time to generate a sitemap for your site, especially if you have hundreds of webpages. Once you have this sitemap downloaded (known as sitemap.xml). You will need to upload this file to your website.
 
 According to [NeilPatel](https://neilpatel.com/blog/build-a-sitemap/), "Without a sitemap, you may spend a lot of time creating unnecessary pages, or designing sites that are more complicated than they need to be." Instead of possibly wasting time creating duplicate resources for a website it is better to create a sitemap and use it as a roadmap. 
 
